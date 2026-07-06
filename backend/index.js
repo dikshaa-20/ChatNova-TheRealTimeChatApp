@@ -12,7 +12,7 @@ dotenv.config()
 const port=process.env.PORT || 5000
 
 
-app.use(cors({origin:"http://localhost:5173",
+app.use(cors({origin:"https://realtimechat-d5wt.onrender.com",
     credentials:true
 }))
 app.use(express.json())
