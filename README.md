@@ -38,9 +38,6 @@ Supports image sharing by integrating Cloudinary for secure cloud storage and op
 
 Displays users' online/offline status in real time, allowing users to know who is currently available for conversation.
 
-### 🔹 Live Typing Indicators
-
-Shows typing indicators while another user is composing a message, creating a more interactive and engaging chat experience.
 
 ---
 
