@@ -10,55 +10,40 @@ Note: Since both the frontend and backend are deployed on Render's free tier, th
 
 ##  Features
 
-### 🔹 Real-Time One-to-One Messaging
-
-Experience instant communication with Socket.io, enabling messages to be delivered and displayed in real time without requiring page refreshes.
-
-### 🔹 Secure User Authentication
-
-Implements JSON Web Token (JWT) based authentication to securely register, log in, and authorize users while protecting application routes and user data.
-
-### 🔹 Persistent Data Storage
-
-Uses MongoDB with Mongoose to efficiently manage user accounts, conversations, and chat history, ensuring reliable and structured data storage.
-
-### 🔹 Modern State Management
-
-Built with React and Redux Toolkit to provide efficient global state management, resulting in a smooth, responsive, and predictable user experience.
-
-### 🔹 Fully Responsive Interface
-
-Designed with Tailwind CSS to provide a clean, intuitive interface that adapts seamlessly across desktops, tablets, and mobile devices.
-
-### 🔹 Cloudinary Image Uploads
-
-Supports image sharing by integrating Cloudinary for secure cloud storage and optimized image delivery.
-
-### 🔹 Live User Presence
-
-Displays users' online/offline status in real time, allowing users to know who is currently available for conversation.
-
+-  User Authentication (JWT)
+-  User Registration & Login
+-  Real-Time One-to-One Chat
+-  Online/Offline User Status
+-  Profile Picture Support
+-  Search Users
+-  Responsive UI
+-  Protected Routes
+-  Logout Functionality
 
 ---
+
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-
-* React
-* Redux Toolkit
-* Tailwind CSS
+- React.js
+- Redux Toolkit
+- React Router DOM
+- Axios
+- Tailwind CSS
 
 ### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Socket.IO
+- JWT Authentication
+- bcrypt.js
+- Cookie Parser
+- CORS
 
-* Node.js
-* Express.js
-* Socket.io
-
-### Database
-
-* MongoDB
-* Mongoose
+---
 
 ### Authentication
 
@@ -82,6 +67,19 @@ The application is deployed using modern cloud services for reliability and scal
 
 ---
 
+
+## 🔄 Workflow
+
+1. User registers.
+2. User logs in.
+3. JWT token is generated.
+4. User can search other users.
+5. Open a conversation.
+6. Send and receive messages instantly using Socket.IO.
+7. Online users are displayed in real time.
+
+---
+
 ##  Highlights
 
 * Real-time one-to-one messaging
@@ -99,3 +97,4 @@ The application is deployed using modern cloud services for reliability and scal
 ##  Project Overview
 
 This project demonstrates the implementation of a modern real-time messaging platform using the MERN stack. It combines secure authentication, WebSocket-based communication, cloud image storage, and responsive frontend development to provide a smooth and engaging chat experience. The application is designed with scalability, performance, and clean architecture in mind, making it a strong example of a production-ready full-stack web application.
+
