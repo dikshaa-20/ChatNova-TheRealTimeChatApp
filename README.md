@@ -85,7 +85,6 @@ The application is deployed using modern cloud services for reliability and scal
 * Real-time one-to-one messaging
 * Secure JWT-based authentication
 * Image sharing with Cloudinary
-* Live typing indicators
 * Online/offline user status
 * Persistent chat history
 * Responsive UI for all screen sizes
